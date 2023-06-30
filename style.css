@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+body{
+    max-width: 100% ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-color: #eeebc7;
+}
+
+
+.registro{
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    box-shadow: 0 0 20px rgba(36, 4, 21, 0.452);
+    padding: 50px 90px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    padding-top: 50px;
+    
+}
+
+form h1{
+    font-size: 35px;
+    color: rgb(189, 43, 226);
+    margin: 0;
+}
+
+form p{
+    font-size: 16px;
+    color: #5e5e5e;
+    margin-bottom: 35px;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 305px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    color: black;
+    padding: 20px 15px 20px 60px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgb(192, 293, 251, 0.7);
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: #BBBBE2;
+}
+
+.input-icon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 30px;
+    transform: translateY(-55%);
+    color: violet;
+}
+
+.btn{
+    padding: 20px;
+    background:rgb(241, 125, 183) ;
+    box-shadow: 0 0 20px rgba(68, 16, 42, 0.7);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(153, 47, 252);
+}
+
+
+
+/* REGISTRAR.PHP */ 
+
+.success{
+    position: absolute;
+    top: 210px;
+    left: 450px;
+    color: #00C83C;
+    text-align: center;
+    font-size: 16px;
+}
+
+.error{
+    position: absolute;
+    top: 210px;
+    text-align: center;
+    font-size: 13px;
+    color: #e00000;
+}
+
+.pagini{
+    position: absolute;
+    top: 205px;
+    right: 450px;
+    text-decoration: none;
+    
+    color: rgb(63, 5, 117);
+    font-size: 20px;
+}
+
+
+/*RESPONSIVE*/
+
+@media(max-width:991px){
+    body{
+        padding: 10px;
+    }
+
+    form{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .input-wrapper {
+        position:relative;
+        width: 88%;
+        margin-bottom: 35px;
+    }
+
+    .input-inicio {
+        position:relative;
+        width: 88%;
+        margin-bottom: 35px;
+    }
+
+    input {
+        padding: 20px 0 20px 45px;
+    }
+
+    .input-icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .registro{
+        box-sizing: border-box;
+        margin-top: 20px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inicioses{
+        box-sizing: border-box;
+        margin-top: 20px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+/* REGISTRAR.PHP */ 
+
+    .success{
+        padding: 35px;
+    }
+
+    .error{
+        padding: 35px;
+    }
+
+    .pagini{
+        padding: 35px;
+    }
+}
+
+
+
+
+/*INICIOSESION.CSS*/
+
+.input-inicio{
+    position: relative;
+    width: 305px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    background-color: rgb(184, 6, 74);
+    width: 100%;
+    font-size: 30px;
+
+}
+
+header .nav div{
+    padding: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicioses{
+    box-sizing: border-box;
+    margin-top: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*PAGINAINICIO.CSS*/
+.index{
+    background-color: #c0004a;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.Titulo h1{
+    
+    font-size: 65px;
+    margin-top: 200px;
+    font-family:  'Helvetica Neue';
+}
+
+
+
+.ingreso{
+    font-family:    'Open Sans';
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ingreso a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+
+
+.social ul {
+	position: fixed;
+	list-style: none;
+	color: #000;
+    bottom: 0%;
+    right: 0px;
+}
+.social ul li {
+	float: right;
+}
+.social ul li a {
+	position: relative;
+	float: right;
+	background: rgb(243, 86, 159);
+	width: 48px; height: 35px;
+	text-align: center;
+	color: #000;
+	padding: 0 0 30px 0;
+}
+.social ul li a:hover {
+	color: #fff;
+}
+.fa-facebook, .fa-twitter, .fa-whatsapp, .fa-instagram {
+	padding: 10px 0 0 0;
+}
+
+.social ul li a:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; right: 0;
+	width: 1px; height: 1px;
+	border: 20px solid transparent;
+	z-index: 0;
+}
+
+.social ul li.facebook a:hover {
+	background: #3b5998;
+}
+.social ul li.twitter a:hover {
+	background: #44ccf6;
+}
+.social ul li.instagram a:hover {
+	background: #b26bc7;
+}
+.social ul li.whatsapp a:hover { 
+	background: #2dda2d; 
+}
+
+/*INICIO USUARIO*/
+
+
+/*header*/
+.usuario{
+    width: 100%;
+    color: rgb(48, 41, 41);
+    background-color: #c0004a;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-us{
+    font-size: 50px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu-us li{   
+    padding: 20px;
+}
+
+.menu-us li:hover{
+    background-color: #5e5e5e96;
+}
+
+.iniciousu{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    min-height: 100vh;
+    background: rgb(255, 246, 207);
+    flex-direction: row;
+    align-items: center;
+}
+
+.cerrar-sesion{
+    text-decoration: none;
+    color: #2e2d2d;
+    
+}
+
+.sacar-turno{
+    text-decoration: none;
+    color: #2e2d2d;
+    
+}
+
+.bienvenida{
+    text-align: center;
+    font-family:'Open Sans';
+}
+
+
+.bienvenida h2{
+    text-align: center;
+    font-family:'Helvetica Neue';
+    font-size: 40px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    white-space: nowrap;
+}
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: #851e49;
+    padding: 15px;
+    color: #f3f3f3;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #851e49;
+}
+
+
+.card .back h3{
+    font-size: 13px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.card .back p{
+    letter-spacing: 1px;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
