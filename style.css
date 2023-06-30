@@ -499,6 +499,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno2{
@@ -514,6 +516,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno3{
@@ -529,6 +533,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno4{
@@ -544,6 +550,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno5{
@@ -559,6 +567,9 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
+
 }
 
 .turno6{
@@ -574,11 +585,43 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turnos{
     width: 100%;
     display: flex;
+}
+
+.turnos2{
+    width: 100%;
+    display: flex;
+    
+}
+
+.turno1:hover{
+    transform: scale(1.2);
+}
+
+.turno2:hover{
+    transform: scale(1.2);
+}
+
+.turno3:hover{
+    transform: scale(1.2);
+}
+
+.turno4:hover{
+    transform: scale(1.2);
+}
+
+.turno5:hover{
+    transform: scale(1.2);
+}
+
+.turno6:hover{
+    transform: scale(1.2);
 }
 
 .fecha{
