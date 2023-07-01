@@ -499,6 +499,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno2{
@@ -514,6 +516,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno3{
@@ -529,6 +533,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno4{
@@ -544,6 +550,8 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turno5{
@@ -559,11 +567,61 @@ header .nav div{
     justify-content: center;
     margin-top:15px;
     margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
+
+}
+
+.turno6{
+    box-shadow: 0 0 20px rgba(36, 4, 21, 0.452);
+    padding: 50px 90px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    width: 305px;
+    margin-bottom: 35px;
+    justify-content: center;
+    margin-top:15px;
+    margin-left: 15px;
+    transition: transform .2s;
+    background-color: #ffe4edb9;
 }
 
 .turnos{
     width: 100%;
     display: flex;
+}
+
+.turnos2{
+    width: 100%;
+    display: flex;
+    
+}
+
+.turno1:hover{
+    transform: scale(1.2);
+}
+
+.turno2:hover{
+    transform: scale(1.2);
+}
+
+.turno3:hover{
+    transform: scale(1.2);
+}
+
+.turno4:hover{
+    transform: scale(1.2);
+}
+
+.turno5:hover{
+    transform: scale(1.2);
+}
+
+.turno6:hover{
+    transform: scale(1.2);
 }
 
 .fecha{
@@ -582,4 +640,34 @@ header .nav div{
 .descripcion{
     font-size: 15px;
     
+}
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: rgba(255, 174, 208, 0.705);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer .socialf{
+    display: inline-block;
+    text-align: center;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+footer .socialf a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.cambiar{
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
 }

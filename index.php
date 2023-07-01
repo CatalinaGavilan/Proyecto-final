@@ -52,7 +52,19 @@
         
         </form>    
     </div>
-    
+    <footer>
+    <div>&copy;Catalina Gavilan and Pedro Alomar </div>
+    <div>
+        <h4>Seguinos en redes</h4>
+        
+    </div>
+    <div class="socialf">
+                <a href="https://es-la.facebook.com/"  class="fa fa-facebook fa-2x"></a>
+                <a href="https://twitter.com/Hugmanrique" class="fa fa-twitter fa-2x"></a>
+                <a href="https://web.whatsapp.com/" class="fa fa-whatsapp fa-2x"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram fa-2x"></a>
+        </div>
+</footer>
     
 </body>
 </html>
