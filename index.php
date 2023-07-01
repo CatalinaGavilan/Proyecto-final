@@ -48,7 +48,7 @@
                 <img class="input-icon" src="imagenes/lock-solid.svg" alt="">
             </div>
         
-            <input class="btn" type="submit" name="registro" value="Enviar">
+            <input class="btn" type="submit" name="registro" value="Registrar" >
         
         </form>    
     </div>
