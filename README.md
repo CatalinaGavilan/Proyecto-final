@@ -1,5 +1,10 @@
 Descripción del proyecto:
-En este proyecto tuvimos el objetivo de crear un turnero moldeable a cualquier empresa. Esto con el fin de poder facilitarle el trabajo a los trabajadores sea cual sea su trabajo. 
+Realizamos está página web con la finalidad de facilitar y agilizar el pedido de turnos, para que el emprendedor o empresario no deba estar anotando en hoja y papel o contestando Miles de mensajes por día. 
+
+Tenemos en mente nuevas actualizaciones del turnero, ya que no llegamos a terminarlo con el tiempo, algunas de ellas son: 
+ENVIO DE MAIL: cada vez que se registre un nuevo turno, se le enviará un mail informando al emprendedor/secretario. 
+CONEXION CALENDARIO: conectar el calendario del turnero con el calendario de Google de quién realice en trabajo para mejor organización. 
+SEÑA: al sacar un turno se pedirá una seña al usuario, para denotar que el turno no es falso y así no hacerle gastar tiempo a quien trabaje.
 
 ¿Qué hay en este repositorio?
 Este repositorio tiene 3 carpetas:
